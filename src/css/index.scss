@@ -16,8 +16,8 @@
   vertical-align: middle;
   box-sizing: border-box;
 
-  &:first-child {
-    margin-left: 10vw;
+  &:last-of-type {
+    margin-right: 0;
   }
 }
 

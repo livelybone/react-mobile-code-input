@@ -1,6 +1,6 @@
 {
   "name": "@livelybone/react-mobile-code-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module for code input, each char corresponds to one input box",
   "main": "./lib/umd/index.js",
   "module": "./lib/es/index.js",

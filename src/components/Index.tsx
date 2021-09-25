@@ -63,6 +63,7 @@ export default class ReactMobileCodeInput extends PureComponent<
             const { length } = this
             if (ev.target.value.length > length)
               ev.target.value = ev.target.value.slice(length)
+            if (ev.target.value.length === length) ev.target.blur()
             this.props.onChange?.(ev.target.value)
           }}
         />
